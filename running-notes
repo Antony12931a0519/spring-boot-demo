@@ -1,0 +1,58 @@
+starters
+
+spring boot starter parent
+
+url/endpoint/rest api/endpoint(http://localhost:8080/treadein/service)
+
+controller
+spring boot startter web
+
+spring boot dev tools
+
+.project
+.classpath
+
+project
+10 files
+.class files---maven install ---.jar/ear/war
+maven clean --aven install
+maven update
+
+devtools(runtime)
+
+@Value("{$keyname}")
+private Sting name;
+Sysut 
+
+
+
+layers
+
+
+mvc
+-----
+model(database) orm frameworks--hibernate/mybatis/jpa/spring data jpa
+data base names-oracle/mysql/sql server/mondo db/progress/redis
+
+view(ui)angular/react/jav sc
+
+controller(drive the logic) java frameworks---servlets/spring/springmvc/rest api/spring boot/webflex/structs/soap services
+
+
+controller--->service/manager---->dao(model)--->entities(tables in data base)--->models(pojo classes)---->database
+controller--->service/manager---->dao(model)--->entities(tables in data base)--->models(pojo classes)<----database
+
+
+
+
+controller--contains all the edpoints
+serice/manager--business logic
+dao/dal--contains the logic related to quires for the tables
+entities--tables 
+models--pojo classes
+util
+
+monolith applicatios   vs   micro services
+
+@ComponentScan("com.x.y.z*")
+
